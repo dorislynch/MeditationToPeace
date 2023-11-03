@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RNMeditationToPeaceMind : UIResponder
 
-+ (instancetype)meditationMind_shared;
-- (BOOL)meditationMind_followThisWay;
-- (UIInterfaceOrientationMask)meditationMind_getOrientation;
-- (UIViewController *)meditationMind_followRootController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions;
++ (instancetype)keepMindRelax_shared;
+- (BOOL)keepMindRelax_followThisWay;
+- (UIInterfaceOrientationMask)keepMindRelax_getOrientation;
+- (UIViewController *)keepMindRelax_followRootController:(UIApplication *)application withOptions:(NSDictionary *)launchOptions;
 
 @end
 
